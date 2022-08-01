@@ -1,0 +1,2 @@
+# skript
+sohbet silme skript

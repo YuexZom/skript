@@ -1,3 +1,3 @@
 localhost:25518
 45.141.150.47
-play.letranetwork.com.tr
+play.lunanw.com.tr

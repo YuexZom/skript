@@ -1,0 +1,545 @@
+{
+  "assetIndex": {
+    "id": "1.8",
+    "sha1": "77618ea71bcb022cf365a1285a938c78333f3973",
+    "size": 98608,
+    "url": "https://launcher.sonoyuncu.network/minecraft/game/assetIndex/1.8.json",
+    "totalSize": 114708537
+  },
+  "assets": "1.8",
+  "downloads": {
+    "client": {
+      "sha1": "bdeaefb33c8c20d4ed101d45a48cdc597fd7b821",
+      "size": 19866144,
+      "url": "https://launcher.sonoyuncu.network/minecraft/game/client/bdeaefb33c8c20d4ed101d45a48cdc597fd7b821.bin"
+    },
+    "server": {
+      "sha1": "b58b2ceb36e01bcd8dbf49c8fb66c55a9f0676cd",
+      "size": 8320755,
+      "url": "https://launcher.mojang.com/mc/game/1.8.9/server/b58b2ceb36e01bcd8dbf49c8fb66c55a9f0676cd/server.jar"
+    },
+    "windows_server": {
+      "sha1": "5143618265b8a2d1d28bcadf206b7327738c2670",
+      "size": 8714995,
+      "url": "https://launcher.mojang.com/mc/game/1.8.9/windows_server/5143618265b8a2d1d28bcadf206b7327738c2670/windows_server.exe"
+    }
+  },
+  "id": "1.8.9-Optifine-Ultra_",
+  "libraries": [
+    {
+      "name": "com.mojang:netty:1.6",
+      "downloads": {
+        "artifact": {
+          "size": 17404,
+          "sha1": "ead3019958173f881afb54288da41a4bae6f5a1c",
+          "path": "com/mojang/netty/1.6/netty-1.6.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/netty-1.6.jar"
+        }
+      }
+    },
+    {
+      "name": "oshi-project:oshi-core:1.1",
+      "downloads": {
+        "artifact": {
+          "size": 55121,
+          "sha1": "45ad2bcbe1a54416e631721e3079aba34b2cc8da",
+          "path": "oshi-project/oshi-core/1.1/oshi-core-1.1.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/oshi-core-1.1.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraft.assets",
+      "downloads": {
+        "artifact": {
+          "size": 17606022,
+          "sha1": "1681377bd8be66da36957a48f7c1d3570990e997",
+          "path": "net/minecraft/assets.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/assets.jar"
+        }
+      }
+    },
+    {
+      "name": "net.java.dev.jna:jna:4.4.0",
+      "downloads": {
+        "artifact": {
+          "size": 1261585,
+          "sha1": "987b23ed9216f5fc093ba0419cba59d2d086ef1a",
+          "path": "net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/jna-4.4.0.jar"
+        }
+      }
+    },
+    {
+      "name": "net.java.dev.jna:platform:4.4.0",
+      "downloads": {
+        "artifact": {
+          "size": 2315304,
+          "sha1": "e04fadfcf8de8dbbe66f7c736b9a5cca7235a949",
+          "path": "net/java/dev/jna/platform/4.4.0/platform-4.4.0.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/platform-4.4.0.jar"
+        }
+      }
+    },
+    {
+      "name": "com.ibm.icu:icu4j-core-mojang:51.2",
+      "downloads": {
+        "artifact": {
+          "size": 3228836,
+          "sha1": "bfe37ad37cacc62dd5e6bc4aa0fbe4f5411aedae",
+          "path": "com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/icu4j-core-mojang-51.2.jar"
+        }
+      }
+    },
+    {
+      "name": "net.sf.jopt-simple:jopt-simple:4.6",
+      "downloads": {
+        "artifact": {
+          "size": 129528,
+          "sha1": "091a3df171b3ab3967be7995833a0bd20359c83f",
+          "path": "net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/jopt-simple-4.6.jar"
+        }
+      }
+    },
+    {
+      "name": "com.paulscode:codecjorbis:20101023",
+      "downloads": {
+        "artifact": {
+          "size": 181162,
+          "sha1": "566d3b84f06e2cff5e4c8830d0822ee932ea9bf5",
+          "path": "com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/codecjorbis-20101023.jar"
+        }
+      }
+    },
+    {
+      "name": "com.paulscode:codecwav:20101023",
+      "downloads": {
+        "artifact": {
+          "size": 9133,
+          "sha1": "165127d6755e1691847f52a92deff96195fedd91",
+          "path": "com/paulscode/codecwav/20101023/codecwav-20101023.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/codecwav-20101023.jar"
+        }
+      }
+    },
+    {
+      "name": "com.paulscode:libraryjavasound:20101123",
+      "downloads": {
+        "artifact": {
+          "size": 43977,
+          "sha1": "9ad374a83322cf01ccfc88ffb684bdc3d5a63011",
+          "path": "com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/libraryjavasound-20101123.jar"
+        }
+      }
+    },
+    {
+      "name": "com.paulscode:librarylwjglopenal:20100824",
+      "downloads": {
+        "artifact": {
+          "size": 36731,
+          "sha1": "3da3c9fc824c4c4b1ce67a7e6ba656edee4609c5",
+          "path": "com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/librarylwjglopenal-20100824.jar"
+        }
+      }
+    },
+    {
+      "name": "com.paulscode:soundsystem:20120107",
+      "downloads": {
+        "artifact": {
+          "size": 144460,
+          "sha1": "5a3f41dda2cfab1acbbc869222c09976d032d199",
+          "path": "com/paulscode/soundsystem/20120107/soundsystem-20120107.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/soundsystem-20120107.jar"
+        }
+      }
+    },
+    {
+      "name": "io.netty:netty-all:4.0.23.Final",
+      "downloads": {
+        "artifact": {
+          "size": 3905102,
+          "sha1": "12e5d7c8ef3f7d7dc27656572fd24bada3e4cd07",
+          "path": "io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/netty-all-4.0.23.Final.jar"
+        }
+      }
+    },
+    {
+      "name": "com.google.guava:guava:17.0",
+      "downloads": {
+        "artifact": {
+          "size": 5264348,
+          "sha1": "5e602bbd29b3d917bf14e939f77ce764adf536b2",
+          "path": "com/google/guava/guava/17.0/guava-17.0.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/guava-17.0.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.commons:commons-lang3:3.3.2",
+      "downloads": {
+        "artifact": {
+          "size": 924017,
+          "sha1": "13a10807932c1378ada414079554e68fb0c843a6",
+          "path": "org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/commons-lang3-3.3.2.jar"
+        }
+      }
+    },
+    {
+      "name": "commons-io:commons-io:2.4",
+      "downloads": {
+        "artifact": {
+          "size": 377270,
+          "sha1": "e8610c7e2280cc481ed67dbd06b2b1f545427921",
+          "path": "commons-io/commons-io/2.4/commons-io-2.4.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/commons-io-2.4.jar"
+        }
+      }
+    },
+    {
+      "name": "commons-codec:commons-codec:1.9",
+      "downloads": {
+        "artifact": {
+          "size": 396950,
+          "sha1": "1e0ea13ab8be2b8535568045b546c78a3f957215",
+          "path": "commons-codec/commons-codec/1.9/commons-codec-1.9.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/commons-codec-1.9.jar"
+        }
+      }
+    },
+    {
+      "name": "net.java.jinput:jinput:2.0.5",
+      "downloads": {
+        "artifact": {
+          "size": 430772,
+          "sha1": "64922af24d66319cbaf11caa3ee984e29f3f7204",
+          "path": "net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/jinput-2.0.5.jar"
+        }
+      }
+    },
+    {
+      "name": "net.java.jutils:jutils:1.0.0",
+      "downloads": {
+        "artifact": {
+          "size": 11955,
+          "sha1": "49d3745413cc2fa91bb4b41ab39b64bdb730f6f9",
+          "path": "net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/jutils-1.0.0.jar"
+        }
+      }
+    },
+    {
+      "name": "com.google.code.gson:gson:2.2.4",
+      "downloads": {
+        "artifact": {
+          "size": 406310,
+          "sha1": "e5ca2a0ae3bb8975b01bcd4be9893420a5066ced",
+          "path": "com/google/code/gson/gson/2.2.4/gson-2.2.4.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/gson-2.2.4.jar"
+        }
+      }
+    },
+    {
+      "name": "com.mojang:authlib:1.5.21",
+      "downloads": {
+        "artifact": {
+          "size": 132491,
+          "sha1": "f0b5d088700b0053ef1916f7a9d4b0f9fbf85f27",
+          "path": "com/mojang/authlib/1.5.21/authlib-1.5.21.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/authlib-1.5.21.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.commons:commons-compress:1.8.1",
+      "downloads": {
+        "artifact": {
+          "size": 707731,
+          "sha1": "20372b5bcaeb24a0d76fe01063436e5d2fafda38",
+          "path": "org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/commons-compress-1.8.1.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.httpcomponents:httpclient:4.3.3",
+      "downloads": {
+        "artifact": {
+          "size": 1269597,
+          "sha1": "3ffb399d3b0e7ba3a434ad4347da0b5ff80259e2",
+          "path": "org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/httpclient-4.3.3.jar"
+        }
+      }
+    },
+    {
+      "name": "commons-logging:commons-logging:1.1.3",
+      "downloads": {
+        "artifact": {
+          "size": 120795,
+          "sha1": "6835c16120090c221c0912f89556b56f85950019",
+          "path": "commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/commons-logging-1.1.3.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.httpcomponents:httpcore:4.3.2",
+      "downloads": {
+        "artifact": {
+          "size": 577886,
+          "sha1": "fa43f53221c0429cf0e362fe7c27db9cd4b1ed7a",
+          "path": "org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/httpcore-4.3.2.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.logging.log4j:log4j-api:2.15.0",
+      "downloads": {
+        "artifact": {
+          "size": 756722,
+          "sha1": "d9c9762679e69b3dc2d833089a83f2d71e5278c2",
+          "path": "org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/log4j-api-2.15.0.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.logging.log4j:log4j-core:2.15.0",
+      "downloads": {
+        "artifact": {
+          "size": 4197120,
+          "sha1": "2a538423d1c873e2f27817910c9e0dbe2879119f",
+          "path": "org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/log4j-core-2.15.0.jar"
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209",
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "downloads": {
+        "artifact": {
+          "size": 2531699,
+          "sha1": "65ebad1e1abb7a8bd5bbb543c7cdff5fb77e3f60",
+          "path": "org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/lwjgl-2.9.4-nightly-20150209.jar"
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "downloads": {
+        "artifact": {
+          "size": 356973,
+          "sha1": "4150635bb312017c94e1d35d9de40bdbec7ef05a",
+          "path": "org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/lwjgl_util-2.9.4-nightly-20150209.jar"
+        }
+      }
+    },
+    {
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209",
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows"
+      },
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "downloads": {
+        "classifiers": {
+          "natives-linux": {
+            "size": 578680,
+            "sha1": "931074f46c795d2f7b30ed6395df5715cfd7675b",
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar",
+            "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar"
+          },
+          "natives-osx": {
+            "size": 426822,
+            "sha1": "bcab850f8f487c3f4c4dbabde778bb82bd1a40ed",
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar",
+            "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar"
+          },
+          "natives-windows": {
+            "size": 613846,
+            "sha1": "077496325571ebf312227861bbd0edb9cfbe7151",
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar",
+            "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar"
+          }
+        },
+        "artifact": {
+          "size": 22,
+          "sha1": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33",
+          "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/lwjgl-platform-2.9.4-nightly-20150209.jar"
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl:2.9.2-nightly-20140822",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "downloads": {
+        "artifact": {
+          "size": 1045632,
+          "sha1": "7707204c9ffa5d91662de95f0a224e2f721b22af",
+          "path": "org/lwjgl/lwjgl/lwjgl/2.9.2-nightly-20140822/lwjgl-2.9.2-nightly-20140822.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/lwjgl-2.9.2-nightly-20140822.jar"
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.2-nightly-20140822",
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "downloads": {
+        "artifact": {
+          "size": 173887,
+          "sha1": "f0e612c840a7639c1f77f68d72a28dae2f0c8490",
+          "path": "org/lwjgl/lwjgl/lwjgl_util/2.9.2-nightly-20140822/lwjgl_util-2.9.2-nightly-20140822.jar",
+          "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/lwjgl_util-2.9.2-nightly-20140822.jar"
+        }
+      }
+    },
+    {
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.2-nightly-20140822",
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows"
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "downloads": {
+        "classifiers": {
+          "natives-linux": {
+            "size": 578539,
+            "sha1": "d898a33b5d0a6ef3fed3a4ead506566dce6720a5",
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar",
+            "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar"
+          },
+          "natives-osx": {
+            "size": 468116,
+            "sha1": "79f5ce2fea02e77fe47a3c745219167a542121d7",
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar",
+            "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar"
+          },
+          "natives-windows": {
+            "size": 613680,
+            "sha1": "78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341",
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar",
+            "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar"
+          }
+        }
+      }
+    },
+    {
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "name": "net.java.jinput:jinput-platform:2.0.5",
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows"
+      },
+      "downloads": {
+        "classifiers": {
+          "natives-linux": {
+            "size": 10362,
+            "sha1": "7ff832a6eb9ab6a767f1ade2b548092d0fa64795",
+            "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar",
+            "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/jinput-platform-2.0.5-natives-linux.jar"
+          },
+          "natives-osx": {
+            "size": 12186,
+            "sha1": "53f9c919f34d2ca9de8c51fc4e1e8282029a9232",
+            "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar",
+            "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/jinput-platform-2.0.5-natives-osx.jar"
+          },
+          "natives-windows": {
+            "size": 155267,
+            "sha1": "a95e9d2bc285b8a29c82b334d33a90d5c7ce5e4d",
+            "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar",
+            "url": "https://assets.sonoyuncu.com.tr/minecraft/libraries/jinput-platform-2.0.5-natives-windows.jar"
+          }
+        }
+      }
+    }
+  ],
+  "mainClass": "net.minecraft.client.main.Main",
+  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type}",
+  "minimumLauncherVersion": 14,
+  "releaseTime": "2015-12-03T09:24:39+00:00",
+  "time": "2016-05-10T14:45:26+00:00",
+  "type": "release"
+}

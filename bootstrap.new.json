@@ -1,0 +1,38 @@
+{
+  "mojang_configuration": "https://launcher.sonoyuncu.network/minecraft/launcher.json",
+  "java_preferred_type": "so",
+  "version": "0.1.38",
+  "updater": {
+    "checksum": "8169544641548a494db203833d76f807f0a99f4c",
+    "url": "https://assets.sonoyuncu.com.tr/bootstrap/updater.jar"
+  },
+  "nativeUpdater": {
+    "windows": {
+      "checksum": "53cc7566cd42a210836bca9f79e06ccc2bd3465a",
+      "name": "soup.exe",
+      "url": "https://assets.sonoyuncu.com.tr/bootstrap/native-updaters/soup_win.exe",
+      "cmd": ["cmd.exe", "/c", "start", "%updaterPath%"]
+    }
+  },
+  "versionControl": {
+    "windows": {
+      "checksum": "66a4c6d86485ed156f8df40e32b3c1b2c02a0242",
+      "url": "https://assets.sonoyuncu.com.tr/bootstrap/bootstrap_win.exe"
+    },
+    "osx": {
+      "checksum": "3c8249d0f3822972331e6353a4d260910ec0e05f",
+      "checksumComp": "392f27c3cedb90bc18cc9da697f95aaee322badd",
+      "url": "https://assets.sonoyuncu.com.tr/bootstrap/bootstrap_osx.zip"
+    },
+    "linux": {
+      "checksum": "a04dc2098cf236ff754e62ad492c4e4630d48a70",
+      "checksumComp": "01c29c5b3e693b5470f244eae3178f018b90cc4e",
+      "url": "https://assets.sonoyuncu.com.tr/bootstrap/bootstrap_linux.tar.gz"
+    }
+  },
+  "launcher_jar_url": "https://assets.sonoyuncu.com.tr/minecraft-launcher/launcher.jar",
+  "launcher_jar_checksum": "f8a7d4d29e7d8aca0f290e2f314b9a4aa2f5445f",
+  "launcher_path": "launcher.jar",
+  "launcher_args": "-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Dcom.sun.net.ssl.checkRevocation=false -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -XX:+DisableAttachMechanism -Dcom.ibm.tools.attach.enable=no -Djna.encoding=UTF-8 -Dlog4j2.formatMsgNoLookups=true -Dr=1 -Xmn%initRAM%M -Xmx%maxRAM%M -Djava.net.preferIPv4Stack=true %runArgs%",
+  "javaIntegrity": []
+}

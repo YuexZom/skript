@@ -1,4 +1,4 @@
 localhost:25518
-play.lunanw.com.tr
+play.lunanw.com.tr:25565
 play.letranetwork.com.tr
 91.124.63.198

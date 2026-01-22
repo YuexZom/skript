@@ -1,3 +1,4 @@
 localhost:25518
 localhost
 play.radionnetwork.com.tr
+play.loremc.com.tr

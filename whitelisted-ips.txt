@@ -1,4 +1,3 @@
 localhost:25518
 localhost
-play.radionnetwork.com.tr
-play.loremc.com.tr
+91.124.63.198

@@ -1,3 +1,4 @@
 localhost:25518
 localhost
+play.slotcraft.com.tr
 91.124.63.198
